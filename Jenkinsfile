@@ -10,7 +10,7 @@ pipeline {
     
     stage('Deploy') {
         steps {
-            sh "nohup python3 app.py &"
+            sh "nohup python3 app.py & "
         }
     }
 }
